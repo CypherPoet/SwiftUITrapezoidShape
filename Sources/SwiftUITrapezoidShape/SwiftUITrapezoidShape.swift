@@ -1,3 +1,3 @@
-struct MyLibrary {
+struct SwiftUITrapezoidShape {
     var text = "Hello, World!"
 }

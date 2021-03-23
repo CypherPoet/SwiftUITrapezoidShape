@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyLibrary",
+    name: "SwiftUITrapezoidShape",
     platforms: [
         .iOS(SupportedPlatform.IOSVersion.v14),
         .macOS(SupportedPlatform.MacOSVersion.v11),
@@ -14,8 +14,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "MyLibrary",
-            targets: ["MyLibrary"]
+            name: "SwiftUITrapezoidShape",
+            targets: ["SwiftUITrapezoidShape"]
         ),
     ],
     dependencies: [
@@ -26,17 +26,17 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "MyLibrary",
+            name: "SwiftUITrapezoidShape",
             dependencies: [
             ],
-            path: "Sources/MyLibrary/"
+            path: "Sources/SwiftUITrapezoidShape/"
         ),
         .testTarget(
-            name: "MyLibraryTests",
+            name: "SwiftUITrapezoidShapeTests",
             dependencies: [
-                "MyLibrary",
+                "SwiftUITrapezoidShape",
             ],
-            path: "Tests/MyLibrary/"
+            path: "Tests/SwiftUITrapezoidShape/"
         ),
     ]
 )
