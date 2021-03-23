@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F39FB9A1260A520F008DA069 /* TrapezoidShapeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB98E260A520D008DA069 /* TrapezoidShapeDemoApp.swift */; };
+		F39FB9A2260A520F008DA069 /* TrapezoidShapeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB98E260A520D008DA069 /* TrapezoidShapeDemoApp.swift */; };
+		F39FB9A5260A520F008DA069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39FB990260A520F008DA069 /* Assets.xcassets */; };
+		F39FB9A6260A520F008DA069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39FB990260A520F008DA069 /* Assets.xcassets */; };
+		F39FB9B2260A546D008DA069 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9B1260A546D008DA069 /* RootView.swift */; };
+		F39FB9B3260A546D008DA069 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9B1260A546D008DA069 /* RootView.swift */; };
+		F39FB9B8260A54D6008DA069 /* ImageAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9B7260A54D6008DA069 /* ImageAssets.swift */; };
+		F39FB9B9260A54D6008DA069 /* ImageAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9B7260A54D6008DA069 /* ImageAssets.swift */; };
+		F39FB9BB260A54F8008DA069 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9BA260A54F8008DA069 /* ThemeColors.swift */; };
+		F39FB9BC260A54F8008DA069 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9BA260A54F8008DA069 /* ThemeColors.swift */; };
+		F39FB9BF260A5548008DA069 /* SwiftUIShapeDemoUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F39FB9BE260A5548008DA069 /* SwiftUIShapeDemoUtils */; };
+		F39FB9C2260A5556008DA069 /* SwiftUIShapeDemoUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F39FB9C1260A5556008DA069 /* SwiftUIShapeDemoUtils */; };
+		F39FB9C5260A5646008DA069 /* WelcomeSceneViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9C4260A5646008DA069 /* WelcomeSceneViewer.swift */; };
+		F39FB9C6260A5646008DA069 /* WelcomeSceneViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39FB9C4260A5646008DA069 /* WelcomeSceneViewer.swift */; };
+		F39FB9C9260A56DC008DA069 /* SwiftUIStarterKit in Frameworks */ = {isa = PBXBuildFile; productRef = F39FB9C8260A56DC008DA069 /* SwiftUIStarterKit */; };
+		F39FB9CC260A56ED008DA069 /* SwiftUIPreviewUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F39FB9CB260A56ED008DA069 /* SwiftUIPreviewUtils */; };
+		F39FB9CE260A56FC008DA069 /* SwiftUIStarterKit in Frameworks */ = {isa = PBXBuildFile; productRef = F39FB9CD260A56FC008DA069 /* SwiftUIStarterKit */; };
+		F39FB9D0260A5701008DA069 /* SwiftUIPreviewUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F39FB9CF260A5701008DA069 /* SwiftUIPreviewUtils */; };
+		F39FB9D2260A59BC008DA069 /* SwiftUITrapezoidShape in Frameworks */ = {isa = PBXBuildFile; productRef = F39FB9D1260A59BC008DA069 /* SwiftUITrapezoidShape */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F39FB98E260A520D008DA069 /* TrapezoidShapeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidShapeDemoApp.swift; sourceTree = "<group>"; };
+		F39FB990260A520F008DA069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39FB995260A520F008DA069 /* TrapezoidShapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrapezoidShapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39FB998260A520F008DA069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39FB99D260A520F008DA069 /* TrapezoidShapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrapezoidShapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39FB99F260A520F008DA069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39FB9A0260A520F008DA069 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F39FB9B1260A546D008DA069 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F39FB9B7260A54D6008DA069 /* ImageAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAssets.swift; sourceTree = "<group>"; };
+		F39FB9BA260A54F8008DA069 /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		F39FB9C4260A5646008DA069 /* WelcomeSceneViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSceneViewer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39FB992260A520F008DA069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39FB9BF260A5548008DA069 /* SwiftUIShapeDemoUtils in Frameworks */,
+				F39FB9C9260A56DC008DA069 /* SwiftUIStarterKit in Frameworks */,
+				F39FB9CC260A56ED008DA069 /* SwiftUIPreviewUtils in Frameworks */,
+				F39FB9D2260A59BC008DA069 /* SwiftUITrapezoidShape in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39FB99A260A520F008DA069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39FB9C2260A5556008DA069 /* SwiftUIShapeDemoUtils in Frameworks */,
+				F39FB9CE260A56FC008DA069 /* SwiftUIStarterKit in Frameworks */,
+				F39FB9D0260A5701008DA069 /* SwiftUIPreviewUtils in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39FB988260A520D008DA069 = {
+			isa = PBXGroup;
+			children = (
+				F39FB9C0260A5556008DA069 /* Frameworks */,
+				F39FB997260A520F008DA069 /* iOS */,
+				F39FB99E260A520F008DA069 /* macOS */,
+				F39FB996260A520F008DA069 /* Products */,
+				F39FB98D260A520D008DA069 /* Shared */,
+			);
+			sourceTree = "<group>";
+		};
+		F39FB98D260A520D008DA069 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB98E260A520D008DA069 /* TrapezoidShapeDemoApp.swift */,
+				F39FB9AF260A5421008DA069 /* Resources */,
+				F39FB9B0260A5425008DA069 /* Scene Views */,
+				F39FB9B4260A54A0008DA069 /* Styling */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F39FB996260A520F008DA069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB995260A520F008DA069 /* TrapezoidShapeDemo.app */,
+				F39FB99D260A520F008DA069 /* TrapezoidShapeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39FB997260A520F008DA069 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB998260A520F008DA069 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F39FB99E260A520F008DA069 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB99F260A520F008DA069 /* Info.plist */,
+				F39FB9A0260A520F008DA069 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F39FB9AF260A5421008DA069 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB990260A520F008DA069 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F39FB9B0260A5425008DA069 /* Scene Views */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB9C3260A5630008DA069 /* Welcome */,
+				F39FB9B1260A546D008DA069 /* RootView.swift */,
+			);
+			path = "Scene Views";
+			sourceTree = "<group>";
+		};
+		F39FB9B4260A54A0008DA069 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB9B6260A54B0008DA069 /* Images */,
+				F39FB9B5260A54A4008DA069 /* Colors */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		F39FB9B5260A54A4008DA069 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB9BA260A54F8008DA069 /* ThemeColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		F39FB9B6260A54B0008DA069 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB9B7260A54D6008DA069 /* ImageAssets.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F39FB9C0260A5556008DA069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F39FB9C3260A5630008DA069 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				F39FB9C4260A5646008DA069 /* WelcomeSceneViewer.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39FB994260A520F008DA069 /* TrapezoidShapeDemo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39FB9A9260A520F008DA069 /* Build configuration list for PBXNativeTarget "TrapezoidShapeDemo (iOS)" */;
+			buildPhases = (
+				F39FB991260A520F008DA069 /* Sources */,
+				F39FB992260A520F008DA069 /* Frameworks */,
+				F39FB993260A520F008DA069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrapezoidShapeDemo (iOS)";
+			packageProductDependencies = (
+				F39FB9BE260A5548008DA069 /* SwiftUIShapeDemoUtils */,
+				F39FB9C8260A56DC008DA069 /* SwiftUIStarterKit */,
+				F39FB9CB260A56ED008DA069 /* SwiftUIPreviewUtils */,
+				F39FB9D1260A59BC008DA069 /* SwiftUITrapezoidShape */,
+			);
+			productName = "TrapezoidShapeDemo (iOS)";
+			productReference = F39FB995260A520F008DA069 /* TrapezoidShapeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F39FB99C260A520F008DA069 /* TrapezoidShapeDemo (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39FB9AC260A520F008DA069 /* Build configuration list for PBXNativeTarget "TrapezoidShapeDemo (macOS)" */;
+			buildPhases = (
+				F39FB999260A520F008DA069 /* Sources */,
+				F39FB99A260A520F008DA069 /* Frameworks */,
+				F39FB99B260A520F008DA069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrapezoidShapeDemo (macOS)";
+			packageProductDependencies = (
+				F39FB9C1260A5556008DA069 /* SwiftUIShapeDemoUtils */,
+				F39FB9CD260A56FC008DA069 /* SwiftUIStarterKit */,
+				F39FB9CF260A5701008DA069 /* SwiftUIPreviewUtils */,
+			);
+			productName = "TrapezoidShapeDemo (macOS)";
+			productReference = F39FB99D260A520F008DA069 /* TrapezoidShapeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39FB989260A520D008DA069 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F39FB994260A520F008DA069 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					F39FB99C260A520F008DA069 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = F39FB98C260A520D008DA069 /* Build configuration list for PBXProject "TrapezoidShapeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F39FB988260A520D008DA069;
+			packageReferences = (
+				F39FB9BD260A5548008DA069 /* XCRemoteSwiftPackageReference "SwiftUIShapeDemoUtils" */,
+				F39FB9C7260A56DC008DA069 /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */,
+				F39FB9CA260A56ED008DA069 /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */,
+			);
+			productRefGroup = F39FB996260A520F008DA069 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39FB994260A520F008DA069 /* TrapezoidShapeDemo (iOS) */,
+				F39FB99C260A520F008DA069 /* TrapezoidShapeDemo (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39FB993260A520F008DA069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39FB9A5260A520F008DA069 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39FB99B260A520F008DA069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39FB9A6260A520F008DA069 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39FB991260A520F008DA069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39FB9B2260A546D008DA069 /* RootView.swift in Sources */,
+				F39FB9BB260A54F8008DA069 /* ThemeColors.swift in Sources */,
+				F39FB9A1260A520F008DA069 /* TrapezoidShapeDemoApp.swift in Sources */,
+				F39FB9C5260A5646008DA069 /* WelcomeSceneViewer.swift in Sources */,
+				F39FB9B8260A54D6008DA069 /* ImageAssets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39FB999260A520F008DA069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39FB9B3260A546D008DA069 /* RootView.swift in Sources */,
+				F39FB9BC260A54F8008DA069 /* ThemeColors.swift in Sources */,
+				F39FB9A2260A520F008DA069 /* TrapezoidShapeDemoApp.swift in Sources */,
+				F39FB9C6260A5646008DA069 /* WelcomeSceneViewer.swift in Sources */,
+				F39FB9B9260A54D6008DA069 /* ImageAssets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F39FB9A7260A520F008DA069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F39FB9A8260A520F008DA069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F39FB9AA260A520F008DA069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.CypherPoet.TrapezoidShapeDemo;
+				PRODUCT_NAME = TrapezoidShapeDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F39FB9AB260A520F008DA069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.CypherPoet.TrapezoidShapeDemo;
+				PRODUCT_NAME = TrapezoidShapeDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39FB9AD260A520F008DA069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.CypherPoet.TrapezoidShapeDemo;
+				PRODUCT_NAME = TrapezoidShapeDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F39FB9AE260A520F008DA069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.CypherPoet.TrapezoidShapeDemo;
+				PRODUCT_NAME = TrapezoidShapeDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39FB98C260A520D008DA069 /* Build configuration list for PBXProject "TrapezoidShapeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39FB9A7260A520F008DA069 /* Debug */,
+				F39FB9A8260A520F008DA069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39FB9A9260A520F008DA069 /* Build configuration list for PBXNativeTarget "TrapezoidShapeDemo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39FB9AA260A520F008DA069 /* Debug */,
+				F39FB9AB260A520F008DA069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39FB9AC260A520F008DA069 /* Build configuration list for PBXNativeTarget "TrapezoidShapeDemo (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39FB9AD260A520F008DA069 /* Debug */,
+				F39FB9AE260A520F008DA069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F39FB9BD260A5548008DA069 /* XCRemoteSwiftPackageReference "SwiftUIShapeDemoUtils" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/SwiftUIShapeDemoUtils";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+		F39FB9C7260A56DC008DA069 /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/SwiftUIStarterKit";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.52;
+			};
+		};
+		F39FB9CA260A56ED008DA069 /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/SwiftUIPreviewUtils";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F39FB9BE260A5548008DA069 /* SwiftUIShapeDemoUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F39FB9BD260A5548008DA069 /* XCRemoteSwiftPackageReference "SwiftUIShapeDemoUtils" */;
+			productName = SwiftUIShapeDemoUtils;
+		};
+		F39FB9C1260A5556008DA069 /* SwiftUIShapeDemoUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F39FB9BD260A5548008DA069 /* XCRemoteSwiftPackageReference "SwiftUIShapeDemoUtils" */;
+			productName = SwiftUIShapeDemoUtils;
+		};
+		F39FB9C8260A56DC008DA069 /* SwiftUIStarterKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F39FB9C7260A56DC008DA069 /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */;
+			productName = SwiftUIStarterKit;
+		};
+		F39FB9CB260A56ED008DA069 /* SwiftUIPreviewUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F39FB9CA260A56ED008DA069 /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */;
+			productName = SwiftUIPreviewUtils;
+		};
+		F39FB9CD260A56FC008DA069 /* SwiftUIStarterKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F39FB9C7260A56DC008DA069 /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */;
+			productName = SwiftUIStarterKit;
+		};
+		F39FB9CF260A5701008DA069 /* SwiftUIPreviewUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F39FB9CA260A56ED008DA069 /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */;
+			productName = SwiftUIPreviewUtils;
+		};
+		F39FB9D1260A59BC008DA069 /* SwiftUITrapezoidShape */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUITrapezoidShape;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F39FB989260A520D008DA069 /* Project object */;
+}
