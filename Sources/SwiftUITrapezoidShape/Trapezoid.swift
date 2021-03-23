@@ -208,7 +208,6 @@ extension Trapezoid {
 
 #if DEBUG
 
-import SwiftUIPreviewUtils
 
 // MARK: - Preview
 struct TrapezoidShape_Previews: PreviewProvider {
