@@ -1,0 +1,75 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape/Sources/SwiftUITrapezoidShape/Trapezoid.swift",
+      "line": 10,
+      "symbol": "Trapezoid",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape/Sources/SwiftUITrapezoidShape/Trapezoid.swift",
+      "line": 11,
+      "symbol": "Trapezoid.leadingAnchor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape/Sources/SwiftUITrapezoidShape/Trapezoid.swift",
+      "line": 12,
+      "symbol": "Trapezoid.trailingAnchor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape/Sources/SwiftUITrapezoidShape/Trapezoid.swift",
+      "line": 14,
+      "symbol": "Trapezoid.leadingLegInsetPercentage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape/Sources/SwiftUITrapezoidShape/Trapezoid.swift",
+      "line": 15,
+      "symbol": "Trapezoid.trailingLegInsetPercentage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape/Sources/SwiftUITrapezoidShape/Trapezoid.swift",
+      "line": 19,
+      "symbol": "Trapezoid.init(leadingAnchor:trailingAnchor:leadingLegInsetPercentage:trailingLegInsetPercentage:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape/Sources/SwiftUITrapezoidShape/Trapezoid.swift",
+      "line": 32,
+      "symbol": "Trapezoid.init(leadingAnchor:leadingLegInsetPercentage:trailingLegInsetPercentage:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape/Sources/SwiftUITrapezoidShape/Trapezoid.swift",
+      "line": 63,
+      "symbol": "Trapezoid",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape/Sources/SwiftUITrapezoidShape/Trapezoid.swift",
+      "line": 194,
+      "symbol": "Trapezoid",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape/Sources/SwiftUITrapezoidShape/Trapezoid.swift",
+      "line": 213,
+      "symbol": "TrapezoidShape_Previews",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/SwiftUITrapezoidShape/SwiftUITrapezoidShape"
+}
