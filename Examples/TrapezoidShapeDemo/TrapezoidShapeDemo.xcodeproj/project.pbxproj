@@ -40,6 +40,7 @@
 		F39FB9B7260A54D6008DA069 /* ImageAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAssets.swift; sourceTree = "<group>"; };
 		F39FB9BA260A54F8008DA069 /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
 		F39FB9C4260A5646008DA069 /* WelcomeSceneViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSceneViewer.swift; sourceTree = "<group>"; };
+		F3EEBBF6263CE98900C74B28 /* SwiftUITrapezoidShape */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftUITrapezoidShape; path = ../..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 		F39FB988260A520D008DA069 = {
 			isa = PBXGroup;
 			children = (
+				F3EEBBF6263CE98900C74B28 /* SwiftUITrapezoidShape */,
 				F39FB9C0260A5556008DA069 /* Frameworks */,
 				F39FB997260A520F008DA069 /* iOS */,
 				F39FB99E260A520F008DA069 /* macOS */,

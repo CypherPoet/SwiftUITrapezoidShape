@@ -2,9 +2,9 @@
 
 <!-- Header Logo -->
 
-<!-- <div align="center">
-   <img width="600px" src="./Extras/banner-logo.png" alt="Banner Logo">
-</div> -->
+<div align="center">
+   <img width="600px" src="./Extras/banner-1@3x.png" alt="Banner Logo">
+</div>
 
 
 <!-- Badges -->
