@@ -3,7 +3,7 @@
 <!-- Header Logo -->
 
 <div align="center">
-   <img width="600px" src="./Extras/banner-1@3x.png" alt="Banner Logo">
+   <img width="1000px" src="./Extras/banner-1@3x.png" alt="Banner Logo">
 </div>
 
 
@@ -31,6 +31,10 @@
 _An animatable SwiftUI Shape for drawing a trapezoid with variably slanted offset sides._
 
 <p />
+
+<div align="center">
+   <img height="500px" src="./Extras/recording-1.gif" alt="Demo Recording">
+</div>
 
 <!--
 ## Features
@@ -78,11 +82,23 @@ targets: [
 Then simply `import SwiftUITrapezoidShape` wherever you’d like to use it.
 
 
-<!-- ## Usage
+## Usage
+
+Importing `SwiftUITrapezoidShape` will expose the `Trapezoid` type.
+
+```swift
+    Trapezoid(
+        leadingAnchor: .topLeading,
+        trailingAnchor: .bottomLeading,
+        leadingLegInsetPercentage: leadingSlantPercentage,
+        trailingLegInsetPercentage: trailingSlantPercentage
+    )
+```
+
+`Trapezoid` documentation can be found [here](https://cypherpoet.github.io/SwiftUITrapezoidShape/), and this project's [example app](https://github.com/CypherPoet/SwiftUITrapezoidShape/tree/main/Examples/TrapezoidShapeDemo) contains a demonstration of more ways to use it.
 
 
-
-## 🗺 Roadmap
+<!-- ## 🗺 Roadmap
 
 - World Domination
  -->

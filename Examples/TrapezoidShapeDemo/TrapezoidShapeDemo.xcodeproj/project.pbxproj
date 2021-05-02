@@ -128,8 +128,8 @@
 		F39FB9B0260A5425008DA069 /* Scene Views */ = {
 			isa = PBXGroup;
 			children = (
-				F39FB9C3260A5630008DA069 /* Welcome */,
 				F39FB9B1260A546D008DA069 /* RootView.swift */,
+				F39FB9C3260A5630008DA069 /* Welcome */,
 			);
 			path = "Scene Views";
 			sourceTree = "<group>";
@@ -552,7 +552,7 @@
 			repositoryURL = "https://github.com/CypherPoet/SwiftUIShapeDemoUtils";
 			requirement = {
 				kind = exactVersion;
-				version = 0.0.1;
+				version = 0.0.2;
 			};
 		};
 		F39FB9C7260A56DC008DA069 /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */ = {
@@ -560,7 +560,7 @@
 			repositoryURL = "https://github.com/CypherPoet/SwiftUIStarterKit";
 			requirement = {
 				kind = exactVersion;
-				version = 0.0.52;
+				version = 0.0.53;
 			};
 		};
 		F39FB9CA260A56ED008DA069 /* XCRemoteSwiftPackageReference "SwiftUIPreviewUtils" */ = {

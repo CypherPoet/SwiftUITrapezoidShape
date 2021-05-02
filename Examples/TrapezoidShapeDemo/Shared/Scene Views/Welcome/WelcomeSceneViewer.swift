@@ -12,8 +12,18 @@ import SwiftUITrapezoidShape
 
 
 struct WelcomeSceneViewer {
-    @State private var screenHeight = CGFloat(0)
-    @State private var headerSlantPercentage = CGFloat(20)
+    @State
+    private var screenHeight = CGFloat(0)
+    
+    @State
+    private var headerSlantPercentage = CGFloat(20)
+    
+    @State
+    private var leadingSlantPercentage = CGFloat(20)
+    
+    @State
+    private var trailingSlantPercentage = CGFloat(20)
+    
 }
 
 
@@ -22,42 +32,32 @@ extension WelcomeSceneViewer: View {
     
     var body: some View {
         VStack(spacing: 32.0) {
-            
             headerSection
-
-            Text("The Trapezoid")
-                .font(.largeTitle)
             
-
-            VStack {
-                Slider(value: $headerSlantPercentage, in: 0.0...100.0) {
-                    Text("Slant Percentage")
-                }
-
-                Text("Slant Percentage")
-                    .font(.caption)
+            Text("Trapezoids!")
+                .font(.custom("Abolition-Regular", size: 32, relativeTo: .body))
+            
+            HStack {
+                galaxyTrapezoid
+                    .frame(height: 160, alignment: .center)
+                
+                galaxyTrapezoid
+                    .frame(height: 160, alignment: .center)
+                    .scaleEffect(x: -1.0, y: 1.0, anchor: .center)
             }
             .padding(.horizontal)
+
+            
+            controlsSection
+                .padding(.horizontal)
             
             
-            Spacer()
-            
-            Button("Reset Slant") {
-                withAnimation(.easeInOut) {
-                    headerSlantPercentage = 20.0
-                }
-            }
-            
-            Spacer()
-            
-            
-            bottomComposition
-                .frame(minHeight: 100)
+            footerComposition
         }
+        .edgesIgnoringSafeArea(.vertical)
         .readingFrameSize { newSize in
             screenHeight = newSize.height
         }
-        .edgesIgnoringSafeArea(.vertical)
     }
 }
 
@@ -70,47 +70,78 @@ extension WelcomeSceneViewer {
 // MARK: - View Content Builders
 private extension WelcomeSceneViewer {
     
-    var headerShape: some Shape {
+    var galaxyTrapezoidShape: some Shape {
         Trapezoid(
-            leadingAnchor: .bottomTrailing,
-            leadingLegInsetPercentage: headerSlantPercentage,
-            trailingLegInsetPercentage: 0
+            leadingAnchor: .topLeading,
+            trailingAnchor: .bottomLeading,
+            leadingLegInsetPercentage: leadingSlantPercentage,
+            trailingLegInsetPercentage: trailingSlantPercentage
         )
     }
     
     
-    var headerSection: some View {
-        ZStack {
-            Trapezoid(
-                leadingAnchor: .topLeading,
-                leadingLegInsetPercentage: 0,
-                trailingLegInsetPercentage: 50
-            )
+    var galaxyTrapezoid: some View {
+        galaxyTrapezoidShape
             .shadow(radius: 10)
-            .frame(height: screenHeight * 0.33)
-            
-            
-            ImageAssets.mountain
-                .resizable()
-                .scaledToFill()
-                .frame(height: screenHeight * 0.33)
-                .clipShape(headerShape)
-                .shadow(radius: 10)
-                .overlay(
-                    headerShape
-                        .stroke(Color.accentColor, lineWidth: 4)
-                )
+            .overlay(
+                ImageAssets.nightSky2
+                    .resizable()
+                    .scaledToFill()
+                    .shadow(radius: 10)
+            )
+            .clipShape(galaxyTrapezoidShape)
+    }
+    
+    
+    var headerSection: some View {
+        VStack {
+            footerComposition
+                .scaleEffect(x: 1.0, y: -1.0, anchor: .center)
         }
     }
     
-    var bottomComposition: some View {
+    
+    var controlsSection: some View {
+        VStack(spacing: 24) {
+            VStack {
+                Slider(value: $leadingSlantPercentage, in: 0.0...100.0, step: 0.5) {
+                    Text("Leading Slant Percentage")
+                }
+                
+                
+                Text("Leading Slant Percentage")
+                    .font(.footnote)
+            }
+            
+            VStack {
+                Slider(value: $trailingSlantPercentage, in: 0.0...100.0, step: 0.5) {
+                    Text("Trailing Slant Percentage")
+                }
+                
+                Text("Trailing Slant Percentage")
+                    .font(.footnote)
+            }
+            
+            Button("Reset Slants") {
+                withAnimation(.easeInOut) {
+                    leadingSlantPercentage = .zero
+                    trailingSlantPercentage = .zero
+                }
+            }
+            .font(.headline)
+        }
+    }
+    
+    
+    var footerComposition: some View {
         ZStack {
             Trapezoid(
                 leadingAnchor: .topLeading,
                 leadingLegInsetPercentage: 66.667,
                 trailingLegInsetPercentage: 0
             )
-            .opacity(0.8)
+            .fill(ThemeColors.secondary1)
+            .opacity(0.8667)
             .shadow(radius: 10)
             
             Trapezoid(
@@ -119,7 +150,7 @@ private extension WelcomeSceneViewer {
                 trailingLegInsetPercentage: 66.667
             )
             .fill(Color.accentColor)
-            .opacity(0.5)
+            .opacity(0.5667)
             .shadow(radius: 10)
         }
     }
@@ -137,6 +168,7 @@ struct WelcomeSceneViewer_Previews: PreviewProvider {
     
     static var previews: some View {
         WelcomeSceneViewer()
+            .accentColor(ThemeColors.accent)
     }
 }
 #endif
