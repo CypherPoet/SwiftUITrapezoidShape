@@ -58,7 +58,7 @@ You can add `SwiftUITrapezoidShape` as a package dependency in your `Package.swi
 let package = Package(
     //...
     dependencies: [
-        .package(url: "https://github.com/CypherPoet/SwiftUITrapezoidShape", .upToNextMinor(from: "0.1.0")),
+        .package(url: "https://github.com/CypherPoet/SwiftUITrapezoidShape", .upToNextMinor(from: "0.1.1")),
     ],
     //...
 )
