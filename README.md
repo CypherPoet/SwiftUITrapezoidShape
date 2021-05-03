@@ -58,7 +58,10 @@ You can add `SwiftUITrapezoidShape` as a package dependency in your `Package.swi
 let package = Package(
     //...
     dependencies: [
-        .package(url: "https://github.com/CypherPoet/SwiftUITrapezoidShape", .upToNextMinor(from: "0.1.1")),
+        .package(
+          url: "https://github.com/CypherPoet/SwiftUITrapezoidShape",
+          .upToNextMinor(from: "0.1.0")
+        ),
     ],
     //...
 )
@@ -96,12 +99,6 @@ Importing `SwiftUITrapezoidShape` will expose the `Trapezoid` type.
 ```
 
 `Trapezoid` documentation can be found [here](https://cypherpoet.github.io/SwiftUITrapezoidShape/), and this project's [example app](https://github.com/CypherPoet/SwiftUITrapezoidShape/tree/main/Examples/TrapezoidShapeDemo) contains a demonstration of more ways to use it.
-
-
-<!-- ## 🗺 Roadmap
-
-- World Domination
- -->
 
 
 ## Contributing
